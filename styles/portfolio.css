@@ -1,0 +1,55 @@
+/* font css link  */
+body {
+    // <uniquifier>: Use a uniquifier for the class name
+    // <weight>: Use a value from 300 to 800
+
+    .open-sans-<uniquifier> {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li>a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    padding: 18px 35px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
